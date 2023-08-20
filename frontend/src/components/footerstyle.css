@@ -1,0 +1,83 @@
+/* Assuming this is your main stylesheet */
+
+/* Footer Styles */
+footer {
+    background-color: #1a202c;
+    color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  
+  .footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .footer-section > div {
+    max-width: 220px;
+  }
+  
+  .footer-heading {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  
+  .footer-link {
+    font-size: 14px;
+    color: #a0aec0;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .footer-link:hover {
+    color: #ffffff;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .social-icon {
+    background-color: #ffffff;
+    color: #1a202c;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    background-color: #1a202c;
+    color: #ffffff;
+  }
+  
+  .footer-text {
+    font-size: 12px;
+    color: #a0aec0;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer-text a {
+    color: #a0aec0;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-text a:hover {
+    color: #ffffff;
+  }
+  
